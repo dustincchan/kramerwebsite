@@ -2360,7 +2360,7 @@
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 6em 0 2em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2933,6 +2933,14 @@
 
 		#work .row.images.inactive .image.from-bottom {
 			top: 7em;
+		}
+
+		#carousel-image {
+			height: 600px;
+		}
+
+		.slick-slide.slick-cloned {
+			height: 600px;
 		}
 
 /* Contact */

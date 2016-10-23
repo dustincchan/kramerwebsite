@@ -5,6 +5,16 @@
 */
 
 (function($) {
+	$(document).ready(function() {
+		$('.baby-images').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 300,
+		  slidesToShow: 1,
+		  centerMode: true,
+		  variableWidth: true
+		});
+	});
 
 	skel.breakpoints({
 		wide: '(max-width: 1920px)',
@@ -57,20 +67,20 @@
 				$(':last-child').addClass('last-child');
 
 		// Gallery.
-			$window.on('load', function() {
-				$('.gallery').poptrox({
-					baseZIndex: 10001,
-					useBodyOverflow: false,
-					usePopupEasyClose: false,
-					overlayColor: '#1f2328',
-					overlayOpacity: 0.65,
-					usePopupDefaultStyling: false,
-					usePopupCaption: true,
-					popupLoaderText: '',
-					windowMargin: (skel.breakpoint('mobile').active ? 5 : 50),
-					usePopupNav: true
-				});
-			});
+			// $window.on('load', function() {
+			// 	$('.gallery').poptrox({
+			// 		baseZIndex: 10001,
+			// 		useBodyOverflow: false,
+			// 		usePopupEasyClose: false,
+			// 		overlayColor: '#1f2328',
+			// 		overlayOpacity: 0.65,
+			// 		usePopupDefaultStyling: false,
+			// 		usePopupCaption: true,
+			// 		popupLoaderText: '',
+			// 		windowMargin: (skel.breakpoint('mobile').active ? 5 : 50),
+			// 		usePopupNav: true
+			// 	});
+			// });
 
 		// Section transitions.
 			if (!skel.vars.mobile
