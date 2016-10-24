@@ -7,14 +7,31 @@
 (function($) {
 	$(document).ready(function() {
 		$('.baby-images').slick({
-		  dots: true,
-			arrows: true,
+			dots: true,
 		  infinite: true,
 		  speed: 300,
-		  slidesToShow: 2,
+		  slidesToShow: 1,
 		  centerMode: true,
-		  variableWidth: true
+		  variableWidth: true,
+			autoplay: true,
+			autoplaySpeed: 2000
 		});
+
+		$('.baby-images').hide();
+	});
+
+	$(document).on('click', '#baby-images-link', function(e) {
+		e.preventDefault();
+		$('.gallery').fadeOut();
+		$('.baby-images').fadeIn();
+		$('.carousel-header').fadeIn();
+	});
+
+	$(document).on('click', '#carousel-back-button', function(e) {
+		e.preventDefault();
+		$('.baby-images').fadeOut();
+		$('.carousel-header').fadeOut();
+		$('.gallery').fadeIn();
 	});
 
 	skel.breakpoints({

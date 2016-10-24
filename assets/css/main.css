@@ -2943,11 +2943,23 @@
 		z-index: 10;
 	}
 
-		.content {
-			margin: auto;
-			padding: 20px;
-			width: 90%;
-		}
+	.carousel-content {
+		margin: auto;
+		padding: 20px;
+		width: 95%;
+	}
+
+	.carousel-header {
+    margin-bottom: 1%;
+		display: none;
+		text-align: left;
+}
+
+#carousel-back-button {
+    margin-left: 1%;
+    bottom: 8px;
+		font-size: 15px;
+}
 
 
 /* Contact */

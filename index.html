@@ -80,7 +80,7 @@
 
 		<!-- Work -->
 			<section id="work" class="main style3 primary">
-				<div class="content container">
+				<div class="content container mywork">
 					<header>
 						<h2>My Work</h2>
 						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
@@ -91,12 +91,12 @@
 					<!-- Lightbox Gallery  -->
 						<div class="container 75% gallery">
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="babies.html" class="image fit from-left"><img src="images/carousel/Babies_01.jpg" title="Babies" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/carousel/Children_05.jpg" class="image fit from-right"><img src="images/carousel/Children_05.jpg" title="Children" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href=# class="image fit from-left" id="baby-images-link"><img src="images/carousel/Babies_01.jpg" title="Babies" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/carousel/Children_05.jpg" class="image fit from-right" id="children-images-link"><img src="images/carousel/Children_05.jpg" title="Children" alt="" /></a></div>
 							</div>
 							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/carousel/Couples_01.jpg" class="image fit from-left"><img src="images/carousel/Couples_01.jpg" title="Couples" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/carousel/Families_03.jpg" class="image fit from-right"><img src="images/carousel/Families_03.jpg" title="Families" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/carousel/Couples_01.jpg" class="image fit from-left" id="couple-images-link"><img src="images/carousel/Couples_01.jpg" title="Couples" alt="" /></a></div>
+								<div class="6u 12u(mobile)"><a href="images/carousel/Families_03.jpg" class="image fit from-right" id="family-images-link"><img src="images/carousel/Families_03.jpg" title="Families" alt="" /></a></div>
 							</div>
 							<!-- <div class="row 0% images">
 								<div class="6u 12u(mobile)"><a href="images/carousel/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
@@ -105,7 +105,8 @@
 						</div>
 				</div>
 				<!-- Dynamic Carousel -->
-				<div class="content">
+				<div class="carousel-content">
+					<h2 class="carousel-header">Babies<button id="carousel-back-button">Go Back</button></h2>
 					<div class="baby-images">
 						<img id="carousel-image" src="images/carousel/Children_02.jpg"/>
 						<img id="carousel-image" src="images/carousel/Children_03.jpg"/>
