@@ -8,9 +8,10 @@
 	$(document).ready(function() {
 		$('.baby-images').slick({
 		  dots: true,
+			arrows: true,
 		  infinite: true,
 		  speed: 300,
-		  slidesToShow: 1,
+		  slidesToShow: 2,
 		  centerMode: true,
 		  variableWidth: true
 		});

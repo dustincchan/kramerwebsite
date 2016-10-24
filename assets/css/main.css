@@ -2935,12 +2935,14 @@
 			top: 7em;
 		}
 
-		#carousel-image {
-			height: 600px;
-		}
+		/*.slick-prev:before, .slick-next:before {
+    	color:red !important;
+		}*/
 
-		.slick-slide.slick-cloned {
-			height: 600px;
+		.content {
+			margin: auto;
+			padding: 20px;
+			width: 90%;
 		}
 
 /* Contact */
