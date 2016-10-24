@@ -2935,15 +2935,20 @@
 			top: 7em;
 		}
 
-		/*.slick-prev:before, .slick-next:before {
-    	color:red !important;
-		}*/
+	.slick-prev, .slick-next {
+    background: #776f6f !important;
+    border-radius: 10px;
+		width: 4% !important;
+    height: 14% !important;
+		z-index: 10;
+	}
 
 		.content {
 			margin: auto;
 			padding: 20px;
 			width: 90%;
 		}
+
 
 /* Contact */
 
