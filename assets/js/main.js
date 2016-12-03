@@ -39,6 +39,7 @@
 												);
 	$(document).ready(function() {
 		$('.carousel-images').hide();
+		setTimeout(function(){$('#k-logo').fadeIn(1000);}, 1000);
 	});
 
 	$(document).on('click', '#baby-images-link', function(e) {

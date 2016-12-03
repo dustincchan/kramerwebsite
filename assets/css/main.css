@@ -2943,6 +2943,10 @@
 		z-index: 10;
 	}
 
+	#k-logo {
+		display: none;
+	}
+
 	.carousel-content {
 		margin: auto;
 		padding: 20px;
