@@ -49,21 +49,27 @@
 	$(document).on('click', '#children-images-link', function(e) {
 		e.preventDefault();
 		initializeCarousel(childrenImages);
-		$('.carousel-header').html('Children<button id="carousel-back-button">Go Back</button>');
+		$('.carousel-header').html('Children<button id="carousel-back-button">Close</button>');
 
 	});
 
 	$(document).on('click', '#couple-images-link', function(e) {
 		e.preventDefault();
 		initializeCarousel(couplesImages);
-		$('.carousel-header').html('Couples<button id="carousel-back-button">Go Back</button>');
+		$('.carousel-header').html('Couples<button id="carousel-back-button">Close</button>');
 	});
 
 	$(document).on('click', '#family-images-link', function(e) {
 		e.preventDefault();
 		initializeCarousel(familyImages);
-		$('.carousel-header').html('Families<button id="carousel-back-button">Go Back</button>');
+		$('.carousel-header').html('Families<button id="carousel-back-button">Close</button>');
+	});
 
+	$(document).on('click', '#send-email-button', function(e) {
+		e.preventDefault();
+		var name = $('#name-input').val();
+		var message = $('#message-input').val();
+		window.location.href = "mailto:KramerChanPhotography@gmail.com?&subject=New Message From "+name+"&body=" + message;
 	});
 
 	function initializeCarousel(images) {

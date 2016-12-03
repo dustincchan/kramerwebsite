@@ -29,7 +29,6 @@
 						<ul>
 							<li><a href="#intro">Intro</a></li>
 							<li><a href="#one">What I Do</a></li>
-							<li><a href="#two">Who I Am</a></li>
 							<li><a href="#work">My Work</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
@@ -40,7 +39,7 @@
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container 75%">
-					<header>
+					<!-- <header>
 						<h2>Welcome</h2>
 					</header>
 					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed
@@ -48,7 +47,7 @@
 					and released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
-					</footer>
+					</footer> -->
 				</div>
 			</section>
 
@@ -56,13 +55,18 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>I'm Kramer</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>I love colorful, creative, and authentic images.
+						I always strive to bring out the unique qualities in my subjects.
+						Every aspect of working with you is very important important to me;
+						from choosing the location,
+						to the editing process, and timely delivery of proofs.
+						Friends and past clients have described me as patient,
+						friendly, and caring. Photography is my passion, and
+						I’d love to share it with you!</p>
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<!-- <a href="#two" class="button style2 down anchored">Next</a> -->
 			</section>
 
 		<!-- Two -->
@@ -106,7 +110,7 @@
 				</div>
 				<!-- Dynamic Carousel -->
 				<div class="carousel-content">
-					<h2 class="carousel-header">Babies<button id="carousel-back-button">Go Back</button></h2>
+					<h2 class="carousel-header">Babies<button id="carousel-back-button">Back</button></h2>
 					<div class="carousel-images">
 						<!-- images added with jquery as to not cause a shitload of asset loading from the initial page load -->
 					</div>
@@ -125,16 +129,16 @@
 					<!-- Contact Form -->
 							<form method="post" action="#">
 								<div class="row 50%">
-									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="12u 12u(mobile)"><input id="name-input" type="text" name="name" placeholder="Name" /></div>
+									<!-- <div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div> -->
 								</div>
 								<div class="row 50%">
-									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+									<div class="12u"><textarea id="message-input" name="message" placeholder="Message" rows="6"></textarea></div>
 								</div>
 								<div class="row">
 									<div class="12u">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li id="send-email-button"><input type="submit" value="Send Message" /></li>
 										</ul>
 									</div>
 								</div>

@@ -2936,7 +2936,7 @@
 		}
 
 	.slick-prev, .slick-next {
-    background: #776f6f !important;
+    background: #98c593 !important;
     border-radius: 10px;
 		width: 4% !important;
     height: 14% !important;
@@ -2959,6 +2959,7 @@
     margin-left: 1%;
     bottom: 8px;
 		font-size: 15px;
+		border-radius: 10px;
 }
 
 
