@@ -81,7 +81,7 @@
 			infinite: true,
 			speed: 300,
 			slidesToShow: 1,
-			centerMode: true,
+			centerMode: false,
 			variableWidth: true,
 			autoplay: true,
 			autoplaySpeed: 2000
