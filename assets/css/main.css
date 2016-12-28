@@ -2876,7 +2876,6 @@
 		background: url("images/overlay.png"), url("../../images/intro_image.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
 
@@ -2945,6 +2944,10 @@
 
 	#k-logo {
 		display: none;
+		position: relative;
+		float: right;
+		top: 230px;
+		left: 230px;
 	}
 
 	.carousel-content {
@@ -3285,7 +3288,12 @@
 /* Narrower */
 
 	@media screen and (max-width: 1000px) {
-
+			#k-logo {
+				position: relative;
+				float: right;
+				top: 230px;
+				left: 200px;
+			}
 		/* Basic */
 
 			body, input, textarea, select {
@@ -3341,7 +3349,12 @@
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
-
+			#k-logo {
+				position: relative;
+				float: none;
+				top: 0px;
+				left: 0px;
+			}
 		/* Basic */
 
 			body {
