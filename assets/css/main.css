@@ -2824,9 +2824,9 @@
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
-	body {
+	/*body {
 		padding-top: 3em;
-	}
+	}*/
 
 	#logo {
 		position: absolute;
@@ -2943,10 +2943,9 @@
 
 	#k-logo {
 		display: none;
-		position: relative;
-		float: right;
-		top: 230px;
-		left: 230px;
+		position: absolute;
+		z-index: 1;
+		width: 500px;
 	}
 
 	.carousel-content {
@@ -3230,6 +3229,13 @@
 				font-size: 17pt;
 			}
 
+			#k-logo {
+				display: none;
+				position: absolute;
+				z-index: 1;
+				width: 700px;
+			}
+
 		/* Main */
 
 			.main.style2 .content {
@@ -3254,6 +3260,13 @@
 
 			body, input, textarea, select {
 				font-size: 15pt;
+			}
+
+			#k-logo {
+				display: none;
+				position: absolute;
+				z-index: 1;
+				width: 500px;
 			}
 
 	}
@@ -3282,16 +3295,17 @@
 				left: -50%;
 			}
 
+			#k-logo {
+				width: 300px;
+			}
+
 	}
 
 /* Narrower */
 
 	@media screen and (max-width: 1000px) {
 			#k-logo {
-				position: relative;
-				float: right;
-				top: 230px;
-				left: 200px;
+				width: 200px;
 			}
 		/* Basic */
 
@@ -3349,10 +3363,9 @@
 
 	@media screen and (max-width: 736px) {
 			#k-logo {
-				position: relative;
-				float: none;
-				top: 0px;
-				left: 0px;
+				position: absolute;
+				z-index: 1;
+				width: 150px;
 			}
 		/* Basic */
 
@@ -3434,9 +3447,9 @@
 				line-height: 2.5em;
 			}
 
-			body {
+			/*body {
 				padding-top: 2.5em;
-			}
+			}*/
 
 			#logo {
 				text-align: center;
