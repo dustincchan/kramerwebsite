@@ -2906,10 +2906,15 @@
 	}
 
 	#k-logo {
-		display: none;
-		position: absolute;
-		z-index: 1;
-		width: 500px;
+			display: none;
+			position: fixed;
+			z-index: 1;
+			width: 500px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			margin: 0;
+			padding: 0;
 	}
 
 	.carousel-content {
@@ -3194,10 +3199,15 @@
 			}
 
 			#k-logo {
-				display: none;
-				position: absolute;
-				z-index: 1;
-				width: 600px;
+			    display: none;
+			    position: fixed;
+			    z-index: 1;
+			    width: 600px;
+			    position: absolute;
+			    right: 0;
+			    bottom: 0;
+			    margin: 0;
+			    padding: 0;
 			}
 
 		/* Main */
@@ -3227,10 +3237,15 @@
 			}
 
 			#k-logo {
-				display: none;
-				position: absolute;
-				z-index: 1;
-				width: 500px;
+			    display: none;
+			    position: fixed;
+			    z-index: 1;
+			    width: 500px;
+			    position: absolute;
+			    right: 0;
+			    bottom: 0;
+			    margin: 0;
+			    padding: 0;
 			}
 
 	}
@@ -3260,7 +3275,15 @@
 			}
 
 			#k-logo {
-				width: 300px;
+					display: none;
+					position: fixed;
+					z-index: 1;
+					width: 300px;
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					margin: 0;
+					padding: 0;
 			}
 
 	}
@@ -3268,9 +3291,17 @@
 /* Narrower */
 
 	@media screen and (max-width: 1000px) {
-			#k-logo {
+		#k-logo {
+				display: none;
+				position: fixed;
+				z-index: 1;
 				width: 200px;
-			}
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				margin: 0;
+				padding: 0;
+		}
 		/* Basic */
 
 			body, input, textarea, select {
@@ -3326,11 +3357,16 @@
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
-			#k-logo {
-				position: absolute;
+		#k-logo {
+				display: none;
 				z-index: 1;
 				width: 150px;
-			}
+				position: absolute;
+				right: 0;
+				top: 0;
+				margin: 0;
+				padding: 0;
+		}
 		/* Basic */
 
 			body {
